@@ -23,6 +23,19 @@ footer {
         margin-bottom: 22px;
         border-radius: 10px;
 
+        font-family: Arial;
+        color: black;
+        font-size: 1em;
+        font-weight: 400;
+
+
+        &:active,
+        &:hover,
+        &:focus {
+            outline: 0;
+            outline-offset: 0;
+        }
+
         &::placeholder {
             font-family: Arial;
             color: #445162;
@@ -31,7 +44,19 @@ footer {
             line-height: 1.5;
             text-align: left;
         }
+
+        &:hover {
+
+            background-color: $light_gray;
+            color: white;
+            border-color: white;
+        }
+
     }
+    textarea {
+        resize: none;
+    }
+
 
 
     .btn {
@@ -47,9 +72,10 @@ footer {
         text-transform: uppercase;
         margin-left: 190px;
         border-radius: 10px;
-        
+
         &:hover {
             background-color: $light_gray;
+
         }
     }
 

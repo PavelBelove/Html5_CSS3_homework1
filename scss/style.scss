@@ -1,5 +1,6 @@
 @import "varibals.scss";
 @import "mixins.scss";
+@import "container.scss";
 @import "header.scss";
 @import "about.scss";
 @import "diginity.scss";
@@ -9,10 +10,6 @@
 @import "footer.scss";
 
 
-.container {
-    max-width: $container_width;
-    margin: 0 auto;
-}
 
 
 
