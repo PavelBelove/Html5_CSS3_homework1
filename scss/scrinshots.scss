@@ -1,0 +1,41 @@
+.scrinshots {
+    h2 {
+        @include h2_styles();
+
+    }
+
+    .wrapper {
+        display: flex;
+    }
+
+
+
+    figure {
+        display: flex;
+        align-content: flex-start;
+    }
+
+    figcaption {
+        padding-left: 15px;
+    }
+
+    img {
+        margin-top: 3px;
+        max-height: 150px
+    }
+
+    h3 {
+        margin-top: 0px;
+        font-family: Arial;
+        color: #445161;
+        font-size: 1.5em;
+        font-weight: 400;
+        line-height: 1.25;
+
+    }
+
+    p {
+        @include p_styles();
+        margin-right: 3px;
+    }
+}

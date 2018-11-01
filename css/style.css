@@ -1,10 +1,3 @@
-@charset "UTF-8";
-/* Переменные, и, в особенности, миксины "притянуты за уши" исключительно в целях тренировки. Для этого макета без них было бы даже проще.*/
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
 header {
   min-height: 323px;
   padding: 0px 50px;
@@ -369,6 +362,11 @@ footer .copy {
   letter-spacing: 0.025em;
   line-height: 2;
   text-align: center;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+
+    &_article {
+        padding-left: 50px;
+
+        h2 {
+            @include h2_styles();
+            text-align: left;
+        }
+
+        p {
+            @include p_styles();
+        }
+    }
+
+    iframe {
+        margin: 50px;
+
+        min-width: 430px;
+        min-height: 245px;
+    }
+
+}

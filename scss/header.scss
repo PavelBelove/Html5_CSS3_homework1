@@ -1,0 +1,38 @@
+header {
+
+    min-height: 323px;
+    padding: 0px 50px;
+    background-color: $gray_blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 3.75em;
+        font-weight: 400;
+        text-align: left;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    ul {
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 1.25em;
+        font-weight: 400;
+        line-height: 1.8;
+        text-align: left;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+        list-style-image: url(../img/header_li.png)
+    }
+
+    .header_img {
+
+
+        max-width: 469px;
+        max-height: 214px;
+    }
+
+
+}

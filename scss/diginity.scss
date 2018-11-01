@@ -1,0 +1,30 @@
+.diginity {
+    background-color: $light_gray;
+    display: flex;
+    flex-wrap: wrap;
+
+    h2 {
+        @include h2_styles();
+
+        flex-basis: 100%
+    }
+
+    .wrapper {
+        display: flex;
+        padding-left: 50px;
+        ;
+    }
+
+    ul {
+        @include p-styles();
+        list-style: none;
+        padding: 0px;
+
+    }
+
+    li {
+        background: url(../img/ul_plus.png) no-repeat 0 5px;
+        padding: 0px 0px 36px 40px;
+    }
+
+}

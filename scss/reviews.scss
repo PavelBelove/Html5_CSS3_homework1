@@ -1,0 +1,70 @@
+.reviews {
+    background-color: $light_gray;
+    padding: 50px;
+
+    h2 {
+        @include h2_styles();
+        margin-top: 0px;
+
+    }
+
+    .review {
+        display: flex;
+        margin: 10px;
+        margin-bottom: 24px;
+    }
+
+    .wrapper {
+        display: flex;
+    }
+
+    .avatar {
+        height: 75px;
+        min-width: 75px;
+
+
+
+        border-radius: 50%;
+        background-image: url(../img/fig_image.jpg);
+
+
+    }
+
+    .rev {
+
+        margin-left: 30px;
+        background-color: rgb(236, 236, 236);
+        position: relative;
+        padding-left: 15px;
+    }
+
+    .rev::before {
+        position: absolute;
+        content: '';
+        width: 0px;
+        height: 0px;
+        border: 20px solid transparent;
+        border-right: 15px solid rgb(236, 236, 236);
+        left: -35px;
+        top: 20px
+    }
+
+    p {
+        font-family: Arial;
+        color: #333333;
+        font-size: 0.875em;
+        font-style: italic;
+        line-height: 1.286;
+        text-align: left;
+    }
+
+    span {
+        font-family: Arial;
+        color: #989898;
+        font-size: 0.875em;
+        font-weight: 400;
+        line-height: 1.286;
+        text-align: left;
+
+    }
+}
