@@ -6,6 +6,8 @@
 
     .wrapper {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
 
@@ -13,6 +15,7 @@
     figure {
         display: flex;
         align-content: flex-start;
+         max-width: 550px;
     }
 
     figcaption {

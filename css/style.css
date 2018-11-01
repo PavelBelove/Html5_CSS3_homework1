@@ -109,10 +109,13 @@ header .header_img {
 }
 .scrinshots .wrapper {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .scrinshots figure {
   display: flex;
   align-content: flex-start;
+  max-width: 550px;
 }
 .scrinshots figcaption {
   padding-left: 15px;
